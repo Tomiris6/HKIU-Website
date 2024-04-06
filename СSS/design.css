@@ -1,0 +1,55 @@
+nav {
+    margin-bottom: 2%;
+}
+.gen-inf {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    padding: 0.5em;
+    text-align: center;
+    color: black;
+    border-radius: 5em;
+    background: linear-gradient(135deg, #418ad1 0%, #9b76bd 100%)
+}
+section {
+    margin: 3%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.free {
+    margin: 0 auto;
+    margin-bottom: 3%;
+    padding: 1em;
+    text-align: center;
+    border: 1px solid #ccc;
+    box-shadow: 20px -15px 10px 5px rgba(0, 0, 0, .2);
+    width: 80%;
+    max-width: 550px;
+}
+#line {
+  --b: 6px;   /* control the border thickness */
+  --w: 80px;  /* control the width of the line*/
+  --g: 15px;  /* control the gap */
+  --c: #0B486B;
+ 
+  width: fit-content;
+  padding: 0 1em;
+  line-height: 1.0em;
+  border: 1px solid;
+  color: #fff;
+  background: 
+    conic-gradient(from   45deg at left ,var(--c) 25%,#0000 0) 0,
+    conic-gradient(from -135deg at right,var(--c) 25%,#0000 0) 100%;
+  background-size: 51% 100%;
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  border-image: 
+     linear-gradient(
+       #0000      calc(50% - var(--b)/2),
+       var(--c) 0 calc(50% + var(--b)/2),
+       #0000    0) 
+    1/0 var(--w)/calc(var(--w) + var(--g));
+  margin-inline: auto;
+  margin-left: 93%;
+  margin-bottom: 20px;
+}
