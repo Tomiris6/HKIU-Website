@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Apply Page</title>
+    <meta name="description" content="Hong Kong Industrial University">
+    <meta name="author" content="Tomiris Sarsenbayeva"> 
+    <link rel="stylesheet" href="../CSS/General.css" media="all"> 
+    <link rel="stylesheet" href="../CSS/animation.css">
+    <link rel="stylesheet" href="../CSS/apply.css" media="only screen">
+    <link rel="stylesheet" href="../CSS/printApply.css" media="print">
+    <script src="../Javascript/Apply.js"></script>
+  </head>
+  <body onload="change(0); rank()">
+
+    <header>
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo of Hong Kong Industrial University" width="400" height="100">
+            <h1>Hong Kong Industrial University</h1>
+            <div class='air air1'></div>
+            <div class='air air2'></div>
+            <div class='air air3'></div>
+            <div class='air air4'></div>
+        </div>
+      </header>
+
+    <nav>  
+        <ul>
+            <li><a href="HKIE_CW1.html">Home</a>
+            <li><a href="About.html">About</a>
+            <li><a href="Apply.html">Apply</a>
+            <li><a href="Visit.html">Visit</a>
+            <li><a href="Program.html">Program</a>
+            <li><a href="Contact.html">Contact</a>
+        </ul>
+    </nav>
+
+    <div id="welcome">
+      <p>Welcome to HKIU</p>
+    </div>
+
+
+    <section id="application_form">
+        <h3>Common Application to Undergraduate Program</h3>
+        <h4 id="title_Eng" class="tab" onclick="change(0)">College of Engineering</h4>
+        <h4 id="title_Sci" class="tab" onclick="change(1)">College of Science</h4>
+        <h4 id="title_Int" class="tab" onclick="change(2)">College of Interdisciplinary Studies</h4>
+      <div class="College_Class" id="College_Eng">
+      <form method="get" action="#">
+        <img src="images/cs.png" width="200" height="200" alt="Computer Science and Technology logo"> <br>
+        <label for="CS">BSc in Computer Science and Technology BSc in Computer Science and
+          Technology</label> <br>
+        <input type="text" name="BSc in Computer Science and Technology" id="CS">
+        <input type="button" class="button rank" value="rank of choice" > 
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/ei.png" width="200" height="200" alt="Electronic Information BEng in Electronic Information logo"> <br>
+        <label for="EI">BEng in Electronic Information BEng in Electronic Information</label> <br>
+        <input type="text" name="BEng in Electronic Information" id="EI">
+        <input type="button" class="button rank" value="rank of choice" > 
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/mse.png" width="200" height="200" alt="Materials Science and Engineering BEng in Materials Science and
+        Engineering logo"> <br>
+        <label for="MSE">BEng in Materials Science and Engineering BEng in Materials Science and
+          Engineering</label> <br>
+        <input type="text" name="BEng in Materials Science and Engineering" id="MSE">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/mc.png" width="200" height="200" alt="Materials and Chemicals BEng in Materials and Chemicals logo"> <br>
+        <label for="MC">BEng in Materials and Chemicals BEng in Materials and Chemicals</label> <br>
+        <input type="text" name="BEng in Materials and Chemicals" id="MC">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/est.png" width="200" height="200" alt="Electronic Science and Technology BSc in Electronic Science and
+        Technology logo"> <br>
+        <label for="EST">BSc in Electronic Science and Technology BSc in Electronic Science and
+          Technology</label> <br>
+        <input type="text" name="BSc in Electronic Science and Technology BSc in Electronic Science and Technology" id="EST">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+    </div>
+
+
+      <div id="College_Sci" class="College_Class">
+      <form method="get" action="#">
+        <img src="images/phy.png" width="200" height="200" alt="Physics logo"> <br>
+        <label for="PHY">BSc in Physics BSc in Physics</label> <br>
+        <input type="text" name="BSc in Physics" id="PHY">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/chem.png" width="200" height="200" alt="BSc in Chemistry BSc in Chemistry logo"> <br>
+        <label for="CHEM">BSc in Chemistry BSc in Chemistry</label> <br>
+        <input type="text" name="BSc in Chemistry" id="CHEM">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+
+      <form method="get" action="#">
+        <img src="images/bio.png" width="200" height="200" alt="BSc in Biology BSc in Biology logo"> <br>
+        <label for="BIO">BSc in Biology BSc in Biology</label> <br>
+        <input type="text" name="BSc in Biology" id="BIO">
+        <input type="button" class="button rank" value="rank of choice" >
+      </form>
+    </div>
+
+      <div id="College_Int" class="College_Class">
+        <form method="get" action="#">
+          <img src="images/cogs.png" width="200" height="200" alt="BSc in Cognitive Science BSc in Cognitive Science logo"> <br>
+          <label for="COGS">BSc in Cognitive Science BSc in Cognitive Science</label> <br>
+          <input type="text" name="BSc in Cognitive Science" id="COGS">
+          <input type="button" class="button rank" value="rank of choice" >
+        </form>
+  
+        <form method="get" action="#">
+          <img src="images/be.png" width="200" height="200" alt="BEng in Biomedical Engineering BEng in Biomedical Engineering logo"> <br>
+          <label for="BE">BEng in Biomedical Engineering BEng in Biomedical Engineering</label> <br>
+          <input type="text" name="BEng in Biomedical Engineering" id="BE">
+          <input type="button" class="button rank" value="rank of choice" >
+        </form>
+  
+        <form method="get" action="#">
+          <img src="images/bm.png" width="200" height="200" alt="BSc in Biology and Medicine BSc in Biology and Medicine logo"> <br>
+          <label for="BM">BSc in Biology and Medicine BSc in Biology and Medicine</label> <br>
+          <input type="text" name="BBSc in Biology and MedicineM" id="BM">
+          <input type="button" class="button rank" value="rank of choice" >
+        </form>
+      </div>
+    </section>
+
+    <section class="table">
+      <table id="chosen-majors-table">
+      <caption>
+      <h2>Your chosen majors: </h2>
+      <h2 id="time">Last change time: </h2>
+      </caption>
+    
+        <thead>
+          <tr>
+              <th>College</th>
+              <th>Major</th>
+              <th>Rank</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>1</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>2</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>3</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>4</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>5</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>6</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>7</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>8</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>9</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td></td>
+              <td>10</td>
+          </tr>
+      </tbody>
+      <tfoot>
+
+      </tfoot>
+       </table>
+       <h2 id="total">Total number of completed choices: </h2>
+       <p id="buttons">
+       <a onclick="submit()" class="button">submit</a>
+       <a onclick="clearChoices()" class="button">clear</a>
+       <div id="gap"></div>
+       
+    </section>
+
+    <footer>
+      <div class='air air1'></div>
+      <div class='air air2'></div>
+      <div class='air air3'></div>
+      <div class='air air4'></div>
+      <img src="images/footer_logo.png" alt="Footer logo in grey colors" width="300" height="100">
+      <p>© CityU 2023 sources of images and text from Wikipedia Commons and
+Courtesy of Icon pack by Icons8 -- designed by <a href="Design.html">Tomiris Sarsenbayeva</a></p>
+    </footer>
+
+  </body>
+</html>
